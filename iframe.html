@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <!-- <script>
+      if (self !== top) {
+        window.TC_FRAME_SIZE = {
+          height: window.frameElement.clientHeight,
+          width: window.frameElement.clientWidth,
+        };
+      }else{
+        window.TC_FRAME_SIZE = {
+          height: window.top.innerHeight * 0.6,
+          width: window.top.innerWidth * 0.7,
+        };
+      }
+
+    </script> -->
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .title{
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        color: white;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+  </style>
+  <body>
+    <div class="preview title">Preview Page</div>
+    <script src="https://tags3-qa.performoo.com/d193G3Ff/au/gfLKSbOTa/tag.js"></script>
+
+    <script>
+      if (self !== top) {
+        const preview = document.querySelector(".preview")
+        preview.style.display = "none"
+        window.TC_FRAME_SIZE = {
+          height: window.frameElement.clientHeight,
+          width: window.frameElement.clientWidth,
+        };
+      }else{
+        window.TC_FRAME_SIZE = {
+          height: window.top.innerHeight * 0.6,
+          width: window.top.innerWidth * 0.5,
+        };
+        document.body.style.height = "100dvh"
+        document.body.style.backgroundColor = "#3C5B6F"
+        document.body.style.display = "flex"
+        document.body.style.flexDirection = "column"
+        document.body.style.justifyContent = "center"
+        document.body.style.alignItems = "center"
+      }
+    </script>
+  </body>
+</html>
